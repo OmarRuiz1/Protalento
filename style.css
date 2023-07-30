@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #202124;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    height: 5vh;
+    padding-top: 11px;
+}
+
+header .cabeza {   
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-right: 18px;
+    
+}
+
+.cabeza a{
+    text-decoration: none; 
+    color: #fffff1;
+    font-size: 13px;
+}
+
+.cabeza svg{
+    height: 24px;
+    width: 24px;
+    fill: #fffff1;
+}
+
+.cabeza img{
+    height: 32px;
+    width: 32px;
+}
+
+.principal{
+    display: flex;
+    height: 83.5vh;
+    align-items: center;
+    flex-flow: column; 
+}
+
+.principal .imgg{
+    display: flex;
+    padding-top: 205px;
+    padding-bottom: 30px;
+}
+
+.buscar{
+    display: flex;
+    height: 46px;
+    width: 582px;
+    border-radius: 50px;
+    background-color:#202124;
+    border: 1px solid #89898a;
+    font-size: 14px;
+    color: #fffff1;
+}
+
+.buscador :hover{
+    background-color: #303134;
+    border: 1px solid #202124;
+    border-color:none;
+    border-radius: 50px;
+    transition: all 0.01s ease;
+}
+
+button{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+button:hover{
+    background-color: #303134;
+    border: 1px solid #5c5c5c;
+    border-radius: 5px;
+    color: #e8eaed;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    flex-flow:column;
+    background-color: #171717;
+}
+
+
+.colombia{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid  #303134;
+    color: #9aa0a6;
+}
+
+.links{
+    display: flex;
+    background-color: #171717;
+    padding: 15px 30px;
+
+}
+
+.links .izquierda{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+ .links .derecha{
+        display: flex;
+        justify-content: end;
+        gap: 30px;
+}
+
+.links a{
+    display: flex;
+    text-decoration: none;
+    gap: 18px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #9aa0a6;
+}
